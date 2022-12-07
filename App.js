@@ -2,7 +2,6 @@ import { ScrollView, StyleSheet, Text, View, TextInput, Button, TouchableOpacity
 import { useState } from 'react';
 
 export default function App() {
-  const [me, setMe] = useState('');
   const [todo, setTodo] = useState(['할 일을 입력하세요.'])   
   const [myTextInput, setMyTextInput] = useState("");
 
