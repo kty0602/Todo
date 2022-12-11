@@ -2,7 +2,7 @@ import { ScrollView, StyleSheet, Text, View, TextInput, Button, TouchableOpacity
 import { useState } from 'react';
 
 export default function App() {
-  const [todo, setTodo] = useState(['할 일을 입력하세요.'])   
+  const [todo, setTodo] = useState(['Ex. 웹 프로젝트 마감 (12/15)'])   
   const [myTextInput, setMyTextInput] = useState("");
 
   //TextInput에서 입력한 값을 setMyTextInput을 통해 state값으로 변화
