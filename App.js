@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
   },
   write: {
     backgroundColor: 'white',
-    width:400,
+    width:300,
     height: 40,
     fontSize: 20,
 },
@@ -94,7 +94,7 @@ mainText: {
   fontSize:20,
   backgroundColor: 'steelblue',
   color: 'white',
-  padding:20,
+  padding:10,
   margin:20,
  },
 });
